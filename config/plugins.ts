@@ -19,4 +19,11 @@ export default ({ env }) => ({
             },
         },
     },
+    graphql: {
+        enabled: true,
+        config: {
+          defaultLimit: 10,
+          maxLimit: 100,
+        },
+    },
 });
